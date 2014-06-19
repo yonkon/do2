@@ -1,0 +1,297 @@
+
+[2014-04-03 16:24:52] Sessia ; SESSION_ID = j6780mg9pv7pv6vgllj7q75jj1 ; HTTP_REFERER = http://diplom.int/index.php?section=ord&subsection=2&order=855&p=3 
+REQUEST_URI = /index.php?section=ord&subsection=2&order=855&p=3 
+Array
+(
+    [user] => Array
+        (
+            [auth] => 1
+            [data] => Array
+                (
+                    [id] => 330
+                    [filial_id] => 0
+                    [fio] => shikon
+                    [hpwd] => c576bf806d738da600e92c8bd14ca113
+                    [email] => yonkon.ru@gmail.com
+                    [telnum] => 80993008825
+                    [cont] => 
+                    [group_id] => 0
+                    [rights] => 
+                    [comments] => 
+                    [blocked] => 0
+                    [conf_ordfld] => 
+                    [conf_visfltr] => 
+                    [conf_sotrfltr] => 
+                    [conf_ordfltr] => 
+                    [conf_sotrfld] => 
+                    [payment_requisites] => 
+                    [password] => root
+                    [conf_visitfld] => 
+                    [black_list] => 0
+                    [conf_blacklistfltr] => 
+                    [conf_clientfltr] => 
+                    [conf_ordarchfld] => 
+                    [conf_ordarchfltr] => 
+                    [conf_ord_colors] => 
+                    [conf_ref_system_fld] => 
+                    [conf_ref_system_fltr] => 
+                    [conf_expenses_fltr] => 
+                    [conf_income_fld] => 
+                    [conf_income_fltr] => 
+                )
+
+        )
+
+    [cgui_table_id_ufils2_ses_settings] => Array
+        (
+            [cur_sort] => 0
+            [cur_sort_up] => 
+        )
+
+    [cgui_table_id_uvis_list_ses_settings] => Array
+        (
+            [cur_sort] => 0
+            [cur_sort_up] => 1
+        )
+
+    [cgui_table_pager] => Array
+        (
+            [cgui_table_pager_uvis_list] => Array
+                (
+                    [curpage] => 0
+                    [curcount] => 0
+                )
+
+            [cgui_table_pager_usotr2] => Array
+                (
+                    [curpage] => 0
+                    [curcount] => 0
+                )
+
+            [cgui_table_pager_umodules1] => Array
+                (
+                    [curpage] => 0
+                    [curcount] => 0
+                )
+
+            [cgui_table_pager_uord2] => Array
+                (
+                    [curpage] => 0
+                    [curcount] => 0
+                )
+
+            [cgui_table_pager_uordarch3] => Array
+                (
+                    [curpage] => 0
+                    [curcount] => 0
+                )
+
+            [cgui_table_pager_usubmodule_commands3] => Array
+                (
+                    [curpage] => 0
+                    [curcount] => 0
+                )
+
+            [cgui_table_pager_usubmodules2] => Array
+                (
+                    [curpage] => 0
+                    [curcount] => 0
+                )
+
+            [cgui_table_pager_usubmodule_columns4] => Array
+                (
+                    [curpage] => 0
+                    [curcount] => 0
+                )
+
+            [cgui_table_pager_umls_in] => Array
+                (
+                    [curpage] => 0
+                    [curcount] => 0
+                )
+
+            [cgui_table_pager_umls_out] => Array
+                (
+                    [curpage] => 0
+                    [curcount] => 0
+                )
+
+            [cgui_table_pager_ukln2] => Array
+                (
+                    [curpage] => 0
+                    [curcount] => 0
+                )
+
+            [cgui_table_pager_uauthors_offers3] => Array
+                (
+                    [curpage] => 0
+                    [curcount] => 0
+                )
+
+            [cgui_table_pager_usotr3] => Array
+                (
+                    [curpage] => 0
+                    [curcount] => 0
+                )
+
+        )
+
+    [cgui_table_id_uvisits_stat2_ses_settings] => Array
+        (
+            [cur_sort] => 0
+            [cur_sort_up] => 
+        )
+
+    [cgui_table_id_usotr2_ses_settings] => Array
+        (
+            [cur_sort] => 0
+            [cur_sort_up] => 
+        )
+
+    [cgui_table_id_umodules1_ses_settings] => Array
+        (
+            [cur_sort] => 0
+            [cur_sort_up] => 
+        )
+
+    [cgui_table_id_uord2_ses_settings] => Array
+        (
+            [cur_sort] => 0
+            [cur_sort_up] => 
+        )
+
+    [cgui_table_id_uord_stat2_ses_settings] => Array
+        (
+            [cur_sort] => 0
+            [cur_sort_up] => 
+        )
+
+    [cgui_table_id_uordarch3_ses_settings] => Array
+        (
+            [cur_sort] => 0
+            [cur_sort_up] => 
+        )
+
+    [cgui_table_id_uord_stat3_ses_settings] => Array
+        (
+            [cur_sort] => 0
+            [cur_sort_up] => 
+        )
+
+    [cgui_table_id_usubmodule_commands3_ses_settings] => Array
+        (
+            [cur_sort] => 0
+            [cur_sort_up] => 
+        )
+
+    [cgui_table_id_usubmodules2_ses_settings] => Array
+        (
+            [cur_sort] => 0
+            [cur_sort_up] => 
+        )
+
+    [cgui_table_id_usubmodule_columns4_ses_settings] => Array
+        (
+            [cur_sort] => 0
+            [cur_sort_up] => 
+        )
+
+    [cgui_table_id_usprav1_ses_settings] => Array
+        (
+            [cur_sort] => 0
+            [cur_sort_up] => 
+        )
+
+    [cgui_table_id_umls_in_ses_settings] => Array
+        (
+            [cur_sort] => 0
+            [cur_sort_up] => 1
+        )
+
+    [cgui_table_id_umls_out_ses_settings] => Array
+        (
+            [cur_sort] => 0
+            [cur_sort_up] => 1
+        )
+
+    [cgui_table_id_ukln2_ses_settings] => Array
+        (
+            [cust] => Array
+                (
+                    [3] => 0
+                    [4] => 0
+                )
+
+            [cur_sort] => 0
+            [cur_sort_up] => 
+        )
+
+    [cgui_table_id_uauthors_offers3_ses_settings] => Array
+        (
+            [cur_sort] => 0
+            [cur_sort_up] => 
+        )
+
+    [cgui_table_id_usotr3_ses_settings] => Array
+        (
+            [cur_sort] => 0
+            [cur_sort_up] => 
+        )
+
+)
+
+
+[2014-04-03 16:24:53] REQUEST ; SESSION_ID = j6780mg9pv7pv6vgllj7q75jj1 ; HTTP_REFERER = http://diplom.int/index.php?section=ord&subsection=2&order=855&p=3 
+REQUEST_URI = /index.php?section=ord&subsection=2&order=855&p=3 
+Array
+(
+    [section] => ord
+    [subsection] => 2
+    [order] => 855
+    [p] => 3
+    [nn] => 0
+    [FORMS_DATA] => Array
+        (
+            [0] => Array
+                (
+                    [0] => 11
+                    [1] => 855
+                    [2] => 1
+                    [3] => 0
+                )
+
+        )
+
+)
+
+
+[2014-04-03 16:24:54] GET ; SESSION_ID = j6780mg9pv7pv6vgllj7q75jj1 ; HTTP_REFERER = http://diplom.int/index.php?section=ord&subsection=2&order=855&p=3 
+REQUEST_URI = /index.php?section=ord&subsection=2&order=855&p=3 
+Array
+(
+    [section] => ord
+    [subsection] => 2
+    [order] => 855
+    [p] => 3
+)
+
+
+[2014-04-03 16:24:55] POST ; SESSION_ID = j6780mg9pv7pv6vgllj7q75jj1 ; HTTP_REFERER = http://diplom.int/index.php?section=ord&subsection=2&order=855&p=3 
+REQUEST_URI = /index.php?section=ord&subsection=2&order=855&p=3 
+Array
+(
+    [nn] => 0
+    [FORMS_DATA] => Array
+        (
+            [0] => Array
+                (
+                    [0] => 11
+                    [1] => 855
+                    [2] => 1
+                    [3] => 0
+                )
+
+        )
+
+)
+

@@ -1,0 +1,28 @@
+AddDefaultCharset UTF-8
+
+Options -Indexes
+
+Options +FollowSymLinks
+RewriteEngine On
+
+RewriteCond %{THE_REQUEST} /subdmn/[^/]
+RewriteRule ^subdmn/[^/]+/(.*) /$1 [R=permanent,L]
+RewriteCond %{HTTP_HOST} ^(.+)\.diplomnadom\.su$ [NC]
+RewriteCond %{HTTP_HOST} !^www\.diplomnadom\.su$ [NC]
+RewriteCond %{REQUEST_URI} !^/subdmn
+RewriteRule ^(.*)$ /subdmn/%1%{REQUEST_URI} [L]
+
+
+RewriteCond %{QUERY_STRING} mosConfig_[a-zA-Z_]{1,21}(=|\%3D) [OR]
+RewriteCond %{QUERY_STRING} base64_encode.*\(.*\) [OR]
+RewriteCond %{QUERY_STRING} (\<|%3C).*script.*(\>|%3E) [NC,OR]
+RewriteCond %{QUERY_STRING} GLOBALS(=|\[|\%[0-9A-Z]{0,2}) [OR]
+RewriteCond %{QUERY_STRING} _REQUEST(=|\[|\%[0-9A-Z]{0,2})
+RewriteRule ^(.*)$ index.php [F,L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} !^/index.php
+RewriteCond %{REQUEST_URI} (/|\.php|\.html|\.htm|\.feed|\.pdf|\.raw|/[^.]*)$  [NC]
+RewriteRule (.*) index.php
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization},L]
